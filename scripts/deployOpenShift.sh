@@ -691,17 +691,17 @@ then
 	fi
 fi
 # Delete postinstall files
-echo $(date) "- Deleting post installation files"
+#echo $(date) "- Deleting post installation files"
 
 
-rm /home/${SUDOUSER}/addocpuser.yml
-rm /home/${SUDOUSER}/assignclusteradminrights.yml
-rm /home/${SUDOUSER}/dockerregistry.yml
-rm /home/${SUDOUSER}/assignrootpassword.yml
-rm /home/${SUDOUSER}/setup-azure-master.yml
-rm /home/${SUDOUSER}/setup-azure-node-master.yml
-rm /home/${SUDOUSER}/setup-azure-node.yml
-rm /home/${SUDOUSER}/masternonschedulable.yml
-rm /home/${SUDOUSER}/reboot-nodes.yml
+#rm /home/${SUDOUSER}/addocpuser.yml
+#rm /home/${SUDOUSER}/assignclusteradminrights.yml
+#rm /home/${SUDOUSER}/dockerregistry.yml
+#rm /home/${SUDOUSER}/assignrootpassword.yml
+#rm /home/${SUDOUSER}/setup-azure-master.yml
+#rm /home/${SUDOUSER}/setup-azure-node-master.yml
+#rm /home/${SUDOUSER}/setup-azure-node.yml
+#rm /home/${SUDOUSER}/masternonschedulable.yml
+#rm /home/${SUDOUSER}/reboot-nodes.yml
 
 echo $(date) " - Script complete"
